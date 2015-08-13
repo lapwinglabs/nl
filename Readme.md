@@ -20,7 +20,7 @@ $ cat in.txt | newline > out.txt
 Convert to newlines from your clipboard (OSX):
 
 ```bash
-$ pbpaste | newline
+$ pbpaste | newline | pbcopy
 ```
 
 Programmatic usage:
