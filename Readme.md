@@ -23,6 +23,8 @@ Convert to newlines from your clipboard (OSX):
 $ pbpaste | newline
 ```
 
+Programmatic usage:
+
 ```js
 var nl = require('nl')
 nl(read('./Readme.md'))
