@@ -11,8 +11,16 @@ npm install -g nl
 
 ## Usage
 
+Convert to newlines from a file:
+
 ```bash
-$ cat in.txt | nl > out.txt
+$ cat in.txt | newline > out.txt
+```
+
+Convert to newlines from your clipboard (OSX):
+
+```bash
+$ pbpaste | newline
 ```
 
 ```js
