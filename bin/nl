@@ -12,5 +12,5 @@ var nl = require('../')
  */
 
 stdin(function(data) {
-  console.log(nl(data));
+  process.stdout.write(nl(data));
 })
