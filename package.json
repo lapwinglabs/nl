@@ -1,6 +1,6 @@
 {
   "name": "nl",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Convert linebreaks into newline characters (\n)",
   "keywords": [],
   "author": "Matthew Mueller <matt@lapwinglabs.com>",
