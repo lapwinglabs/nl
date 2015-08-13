@@ -1,0 +1,19 @@
+{
+  "name": "nl",
+  "version": "0.0.1",
+  "description": "Convert linebreaks into newline characters (\n)",
+  "keywords": [],
+  "author": "Matthew Mueller <matt@lapwinglabs.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lapwinglabs/nl.git"
+  },
+  "dependencies": {
+    "get-stdin": "^4.0.1"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "main": "index"
+}

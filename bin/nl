@@ -1,0 +1,16 @@
+#!/usr/bin/env node
+
+/**
+ * Module Dependencies
+ */
+
+var stdin = require('get-stdin')
+var nl = require('../')
+
+/**
+ * Get the stdin
+ */
+
+stdin(function(data) {
+  console.log(nl(data));
+})
